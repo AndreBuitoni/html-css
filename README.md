@@ -17,5 +17,5 @@ Fundo 004 - Pontos de Ancoragem Bonequinho <br>
 Fundo 005 - Pontos de Ancoragem Imagem de Fundo <br>
 <a href="http://andrebuitoni.github.io/html-css/ex022/fundo005.html" target="_blank">Fundo005</a>
 
-Fundo 006 - Testando Background Size Contain/cover e outros
+Fundo 006 - Testando Background Size Contain/cover e outros <br>
 <a href="http://andrebuitoni.github.io/html-css/ex022/fundo006.html" target="_blank">Fundo006</a>
