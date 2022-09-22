@@ -19,3 +19,8 @@ Fundo 005 - Pontos de Ancoragem Imagem de Fundo <br>
 
 Fundo 006 - Testando Background Size Contain/cover e outros <br>
 <a href="http://andrebuitoni.github.io/html-css/ex022/fundo006.html" target="_blank">Fundo006</a>
+
+Fundo 007 - Aprendendo alinhamento vertical - position relative/absolute e transform: translate(-50%, -50%)<br>
+<a href="http://andrebuitoni.github.io/html-css/ex022/fundo007.html" target="_blank">Fundo007</a>
+<br>
+/* Nesta aula fixamos uma caixa no centro de outra caixa nos eixos x/y pois com a declaração margin auto só conseguíamos ajustar a position de uma caixa no eixo x (horizontal) */
