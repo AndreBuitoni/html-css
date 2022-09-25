@@ -6,11 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T2-Tabelas Grandes</title>
     <style>
+        header {
+            background-color: whitesmoke;
+            padding: 8px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: bisque;
+            padding: 8px;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: rgb(255, 251, 196);
+            text-decoration: underline;
+            color: rgb(107, 109, 4);
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            background-color: antiquewhite;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            margin-top: 10px;
         }
 
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -32,67 +72,149 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(58, 58, 58);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(255, 213, 213);
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(201, 118, 118);
+        }
+
         td.num {
             text-align: right;
+        }
+
+        footer {
+            padding: 20px;
+            margin-top: 10px;
+            background-color: whitesmoke;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Uso de Tabelas Grandes</h1>
-    <!--
-        ANATOMIA PARA TABELAS GRANDES
-        TABLE
-            THEAD
-                TR, TD, TH (table row, table data, table header)
-            TBODY
-                TR, TD, TH
-            TFOOT
-                TR, TD, TH
-    -->
-    <table>
-        <caption>População das Unidades Federativas</caption>
-        <thead>
-            <tr>
-                <th scope="col">Estado</th>
-                <th scope="col">População</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>São Paulo</td>
-                <td class="num">45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num">21 168 791</td>
-            </tr>
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">17 264 943</td>
-            </tr>
-            <tr>
-                <td>Estado 4</td>
-                <td class="num">15 000 000</td>
-            </tr>
-            <tr>
-                <td>Estado 5</td>
-                <td class="num">14 000 000</td>
-            </tr>
-            <tr>
-                <td>Estado 6</td>
-                <td class="num">13 000 000</td>
-            </tr>
-            <tr>
-                <td>Estado 7</td>
-                <td class="num">11 000 000</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th scope="row">Total de Habitantes</th>
-                <td class="num"><strong>0000</strong></td>
-            </tr>
-        </tfoot>
-    </table>
+    <header>
+        <h1>Capítulo 21 - Aprendendo a Usar Tabelas</h1>
+    </header>
+    <nav>
+        <a href="tabela001.html">Minha Primeira Tabela</a>
+        <a href="tabela002.html">Tabelas Grandes</a>
+        <a href="tabela003.html">Mesclagem de Células</a>
+    </nav>
+    <main>
+        <h1>Uso de Tabelas Grandes</h1>
+        <p>Uso de cores meramente ilustrativo para fins didáticos.</p>
+        <p>O Cabeçalho desta tabela gruda na tabela quando você roda a janela para baixo, faça o teste! Legal né?</p>
+        <!--
+            ANATOMIA PARA TABELAS GRANDES
+            TABLE
+                THEAD
+                    TR, TD, TH (table row, table data, table header)
+                TBODY
+                    TR, TD, TH
+                TFOOT
+                    TR, TD, TH
+        -->
+        <table>
+            <caption>População das Unidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Estado 4</td>
+                    <td class="num">15 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 5</td>
+                    <td class="num">14 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 6</td>
+                    <td class="num">13 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 7</td>
+                    <td class="num">11 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 4</td>
+                    <td class="num">15 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 5</td>
+                    <td class="num">14 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 6</td>
+                    <td class="num">13 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 7</td>
+                    <td class="num">11 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 4</td>
+                    <td class="num">15 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 5</td>
+                    <td class="num">14 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 6</td>
+                    <td class="num">13 000 000</td>
+                </tr>
+                <tr>
+                    <td>Estado 7</td>
+                    <td class="num">11 000 000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de Habitantes</th>
+                    <td class="num"><strong>0000</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <h3>Leia o primeiro parágrafo abaixo.</h3>
+        <p>Os parágrafos seguintes servem apenas para que você possa rolar o site para baixo e perceber que o CABEÇALHO DA TABELA irá desgrudar da sua tela assim que a tabela desaparecer. Role para baixo e veja que legal.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repudiandae, fugiat enim ex assumenda quod neque, autem eos quasi sint ipsa, dolorum voluptatibus reprehenderit adipisci est atque voluptatem omnis veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloribus alias, reiciendis obcaecati maxime non sint rerum nobis assumenda, officiis nihil quia omnis amet ex debitis deleniti veniam officia voluptatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod et qui sequi harum, facilis esse dignissimos deleniti rerum voluptate expedita assumenda alias rem, soluta possimus dolor a, distinctio tenetur quos?</p>
+    </main>
+    <footer>
+        Site criado por <a href="https://github.com/AndreBuitoni" target="_blank">André Buitoni</a> durante o <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank">Curso de HTML5 e CSS3</a> do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">CursoemVideo</a>.
+    </footer>
 </body>
 </html>
