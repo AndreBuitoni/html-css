@@ -23,4 +23,10 @@ Fundo 006 - Testando Background Size Contain/cover e outros <br>
 Fundo 007 - Aprendendo alinhamento vertical - position relative/absolute e transform: translate(-50%, -50%)<br>
 <a href="http://andrebuitoni.github.io/html-css/ex022/fundo007.html" target="_blank">Fundo007</a>
 <br>
-/* Nesta aula fixamos uma caixa no centro de outra caixa nos eixos x/y pois com a declaração margin auto só conseguíamos ajustar a position de uma caixa no eixo x (horizontal) */
+/* Nesta aula fixamos uma caixa no centro de outra caixa nos eixos x/y pois com a declaração margin auto só conseguíamos ajustar a position de uma caixa no eixo x (horizontal) */ <br>
+
+----------------------------------
+
+CAPÍTULO 21 - APRENDENDO A USAR TABELAS <br>
+
+<a href="http://andrebuitoni.github.io/html-css/ex023/tabela001.html" target="_blank">Acesse aqui a página sobre TABELAS em HTML e CSS</a> <br>

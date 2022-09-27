@@ -50,6 +50,10 @@
             text-align: center;
         }
 
+        main p {
+            text-align: justify;
+        }
+
         table {
             border-collapse: collapse;
             width: 400px;
@@ -80,14 +84,19 @@
 <body>
     <header>
         <h1>Capítulo 21 - Aprendendo a Usar Tabelas</h1>
+        <h2>Comandos Básicos</h2>
     </header>
     <nav>
-        <a href="tabela001.html">Minha Primeira Tabela</a>
+        <a href="tabela001.html">Comandos Básicos</a>
         <a href="tabela002.html">Tabelas Grandes</a>
         <a href="tabela003.html">Mesclagem de Células</a>
+        <a href="tabela004.html">Desafios</a>
+        <a href="tabela006.html">Responsividade</a>
     </nav>
     <main>
-        <h1>Minha Primeira Tabela</h1>
+        <h2>Minha Primeira Tabela</h2>
+        <p>Neste exercício, aprendemos os comandos básicos relacionados à crição de tabelas com HTML e CSS.</p>
+        <p>Alguns temas abordados foram: como criar as linhas e colunas, como alinhar o texto verticalmente e horizontalmente, como adicionar bordas nas células e na tabela inteira, como adicionar cor de fundo nas células e outros comandos básicos.</p>
         <!--
             HIERARQUIA DE TABELAS
             TABLE = tabela
@@ -96,6 +105,7 @@
                     TABLE DATA = dado de tabela
         -->
         <table>
+            <caption>Tabela Básica</caption>
             <tr id="linha1"> <!-- Primeira Linha-->
                 <td>A1</td>
                 <td>B1</td>
