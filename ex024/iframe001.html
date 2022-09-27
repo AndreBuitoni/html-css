@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            width: 600px;
+            height: 500px;
+            border: 1px solid rgba(0, 0, 0, 0.486);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Um iframe é um quadro inline que acessa outros sites. Alguns sites não funcionam com iframe pois esse elemento oferece alguns riscos de segurança para os sites, e por isso essa ferramenta é bloqueada em alguns sites.</p>
+    <p>O iframe é um recurso limitado que serve apenas para algumas ocasiões. Veremos ao longo desse capítulo 22 quais são os casos onde deve-se utilizar um iframe.</p>
+    Veja abaixo um iframe acessando e mostrando o site do CursoemVideo.
+    <p>Acessando o site do
+        
+        <iframe src="http://www.cursoemvideo.com" frameborder="0"><a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a><p>Infelizmente seu navegador não é compatível com iframes</p></iframe>
+        
+        para aprender a programar.
+    </p>
+    <p>O tamanho padrão de um iframe é de 300px:150px. Entretanto, esse valor é personalizável.</p>
+    Observe que, caso você personalize o tamanho do iframe diretamente no código dele e posteriormente personalize na folha de estilo CSS, o valor da folha de estilo irá valer e o valor colocado direto no código do iframe será ignorado.
+    <p>
+        O repositório do Guanabara
+
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500"><a href="https://gustavoguanabara.github.io" target="_blank">Site do Gustavo Guanabara</a></iframe>
+
+        também é bem legal.
+    </p>
+</body>
+</html>
