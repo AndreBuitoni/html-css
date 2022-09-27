@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I3 - Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+    <h2>As páginas escolhidas irão aparecer dentro do campo do iframe</h2>
+    <p>Confira abaixo alguns projetos e sites que estou criando ao longo deste curso de HTML5 e CSS3. Espero que goste.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="tv">Primeira Página</a></li>
+        <li><a href="https://andrebuitoni.github.io/site-android/" target="tv">Site-Android</a></li>
+        <li><a href="https://andrebuitoni.github.io/projeto-cordel/" target="tv">Projeto Cordel</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus impedit placeat est unde itaque beatae nihil? Officiis, alias. Minus officia voluptatem suscipit, expedita repellat earum aut natus laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, eveniet harum. Culpa voluptatibus quis tenetur. Reprehenderit fugiat dolore, magni saepe cupiditate esse odit quo, praesentium facere inventore eius, fuga culpa.</p>
+
+    <iframe name="tv" srcdoc="<h1>Escolha uma das opções acima.</h1>" frameborder="1">
+        <p>Infelizmente, seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, autem dolorum. Rerum corporis voluptatem asperiores eveniet, deleniti id repellat consequatur iusto fugit. Nostrum tenetur soluta molestiae quasi dolorem velit. Architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod dignissimos nemo laudantium! Dolorem vero autem repellendus, amet exercitationem, totam ipsa odit ducimus, id consequatur eum labore veniam doloremque qui.</p>
+</body>
+</html>
