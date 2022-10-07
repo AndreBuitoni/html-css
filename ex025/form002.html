@@ -5,77 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F2 - Teste de Formulário</title>
-    <style>
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        header {
-            background-color: rgb(252, 247, 237);
-            padding: 8px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: rgb(252, 247, 237);
-            display: flex;
-            justify-content: space-around;
-            padding: 10px;
-            border-radius: 0px 0px 20px 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            background-color: bisque;
-            padding: 8px;
-            border-radius: 10px;
-            color: black;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            background-color: rgb(255, 202, 137);
-            text-decoration: underline;
-            font-weight: bolder;
-        }
-
-        main {
-            background-color: rgb(252, 247, 237);
-            padding: 10px;
-            max-width: 800px;
-            border-radius: 10px;
-            margin: auto;
-            margin-top: 10px;
-        }
-
-        main h3 {
-            background-image: linear-gradient(to right, rgba(255, 202, 137, 0.548), transparent);
-            padding: 3px;
-        }
-
-        main h4 {
-            background-image: linear-gradient(to right, rgba(255, 202, 137, 0.233), transparent);
-            padding: 1px;
-        }
-
-        footer {
-            padding: 20px;
-            margin-top: 10px;
-            background-color: rgb(252, 247, 237);
-            text-align: center;
-            font-size: small;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: rgb(77, 75, 231);
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -85,12 +15,12 @@
     <nav>
         <a href="form001.html">Formulário Básico</a>
         <a href="form002.html">Formulário com Senha</a>
-        <a href="#">botão 3</a>
-        <a href="#">botão 4</a>
-        <a href="#">botão 5</a>
+        <a href="form003.html">Input - núm/data/hora</a>
+        <a href="form004.html">Telefone e E-mail</a>
+        <a href="form005.html">Checkbox e Radio Button</a>
     </nav>
     <main>
-        <h1>Formulário com Senha</h1>
+        <h3>Formulário com Senha</h3>
         <form action="cadastro.php" method="POST" autocomplete="on">
             <p>
                 <label for="iusu">Usuário: </label>
@@ -101,8 +31,8 @@
                 <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="12" placeholder="mínimo 8 letras" autocomplete="current-password">
             </p>
             <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                <input class="btn-principal" type="submit" value="Enviar">
+                <input class="btn-principal" type="reset" value="Limpar">
             </p>
         </form>
     </main>
