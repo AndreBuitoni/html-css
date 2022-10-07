@@ -6,8 +6,18 @@
 
 header {
     background-color: rgb(252, 247, 237);
-    padding: 8px;
+    padding: 5px;
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+header h2 {
+    font-size: 20px;
 }
 
 input.btn-principal {
@@ -24,16 +34,17 @@ input.btn-principal:hover {
 }
 
 nav {
-    background-color: rgb(252, 247, 237);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
-    padding: 10px;
-    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 nav a {
     text-decoration: none;
-    background-color: bisque;
+    background-color: rgba(255, 202, 127, 0.342);
     padding: 5px;
     border-radius: 10px;
     color: black;
@@ -43,7 +54,8 @@ nav a {
 
 nav a:hover {
     background-color: rgb(255, 202, 137);
-    text-decoration: underline;
+    color: rgb(102, 66, 25);
+    text-decoration: none;
     font-weight: bolder;
 }
 
@@ -54,6 +66,7 @@ main {
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 main h3 {
@@ -68,10 +81,11 @@ main h4 {
 
 footer {
     padding: 20px;
-    margin-top: 10px;
     background-color: rgb(252, 247, 237);
     text-align: center;
     font-size: small;
+    max-width: 1000px;
+    margin: auto;
 }
 
 footer a {

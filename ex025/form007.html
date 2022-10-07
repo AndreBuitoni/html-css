@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F7 - Select, Datalist e Textarea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Capítulo 24 - Aprendendo a Usar Formulários</h1>
+        <h2>Formulários com SELECT, DATALIST e TEXTAREA</h2>
+    </header>
+    <nav>
+        <a href="form001.html">Formulário Básico</a>
+        <a href="form002.html">Formulário com Senha</a>
+        <a href="form003.html">Input - núm/data/hora</a>
+        <a href="form004.html">Telefone e E-mail</a>
+        <a href="form005.html">Checkbox e Radio Button</a>
+    </nav>
+    <nav>
+        <a href="form006.html">Color, Range e File</a>
+        <a href="form007.html">Select, Datalist e Textarea</a>
+        <a href="#">Form008</a>
+    </nav>
+    <main>
+        <h3>FORMULÁRIO 7 - Select, Datalist e Textarea</h3>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="iest">Estado: </label>
+                <select name="estado" id="iest">
+                    <option value="" selected>---Escolha---</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+
+                    <optgroup label="Região Nordeste">
+                        <option value="PE">Pernambuco</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contador</option>
+                    <option value="DEV">Desenvolvedor</option>
+                    <option value="PROF">Professor</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="imsg">Mensagem: </label>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input class="btn-principal" type="submit" value="Enviar">
+                <input class="btn-principal" type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        Site criado por <a href="https://github.com/AndreBuitoni" target="_blank">André Buitoni</a> durante o <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank">Curso de HTML5 e CSS3</a> do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">CursoemVideo</a>.
+    </footer>
+</body>
+</html>
