@@ -22,7 +22,8 @@
     <nav>
         <a href="form006.html">Color, Range e File</a>
         <a href="form007.html">Select, Datalist e Textarea</a>
-        <a href="#">Form008</a>
+        <a href="form008.html">Elemento Output</a>
+        <a href="form009.html">Em que ano você nacseu?</a>
     </nav>
 
     <main>
@@ -37,7 +38,8 @@
                 </p>
                 <p>
                     <label for="inivel">Estava boa a janta?</label>
-                    <input type="range" name="nivel" id="inivel" min="1" max="10" value="3">
+                    <input type="range" name="nivel" id="inivel" min="0" max="10" value="3" oninput="ival.innerHTML = Number(inivel.value)">
+                    <output id="ival"></output>
                 </p>
                 <p>
                     <label for="ifoto">Foto do Dia:</label>
