@@ -30,3 +30,13 @@ Fundo 007 - Aprendendo alinhamento vertical - position relative/absolute e trans
 CAPÍTULO 21 - APRENDENDO A USAR TABELAS <br>
 
 <a href="http://andrebuitoni.github.io/html-css/ex023/tabela001.html" target="_blank">Acesse aqui a página sobre TABELAS em HTML e CSS</a> <br>
+
+----------------------------------
+
+CAPÍTULO 22 - Aprendendo a Usar IFRAMES <br>
+<a href="http://andrebuitoni.github.io/html-css/ex024/iframe001.html" target="_blank"> Acesse aqui a página sobre IFRAMES em HTML e CSS</a> <br>
+
+----------------------------------
+
+CAPÍTULO 24 - Aprendendo a Usar Formulários <br>
+<a href="http://andrebuitoni.github.io/html-css/ex025/form001.html" target="_blank"> Acesse aqui a página sobre FORMULÁRIOS em HTML e CSS</a> <br>
