@@ -20,16 +20,20 @@ header > h1 {
     text-align: center;
 }
 
-menu {
-    background-color: aqua;
-}
-
 menu ul {
-    display: inline-block;
     list-style-type: none;
     background-color: gray;
 }
 
-menu > ul > li {
-    
+menu li {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+article {
+    display: block;
+    width: 600px;
+    margin: auto;
 }
