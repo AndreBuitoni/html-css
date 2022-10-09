@@ -40,3 +40,8 @@ CAPÍTULO 22 - Aprendendo a Usar IFRAMES <br>
 
 CAPÍTULO 24 - Aprendendo a Usar Formulários <br>
 <a href="http://andrebuitoni.github.io/html-css/ex025/form001.html" target="_blank"> Acesse aqui a página sobre FORMULÁRIOS em HTML e CSS</a> <br>
+
+----------------------------------
+
+CAPÍTULO 25 - Aprendendo a Usar MEDIA QUERIES <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/index.html" target="_blank"> Acesse aqui a página sobre MEDIA QUERIES em HTML e CSS</a> <br>
