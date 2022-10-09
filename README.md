@@ -44,4 +44,4 @@ CAPÍTULO 24 - Aprendendo a Usar Formulários <br>
 ----------------------------------
 
 CAPÍTULO 25 - Aprendendo a Usar MEDIA QUERIES <br>
-<a href="http://andrebuitoni.github.io/html-css/ex026/index.html" target="_blank"> Acesse aqui a página sobre MEDIA QUERIES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/mq002/index.html" target="_blank"> Acesse aqui a página sobre MEDIA QUERIES em HTML e CSS</a> <br>
