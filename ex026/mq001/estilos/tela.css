@@ -23,6 +23,7 @@ header > h1 {
 menu ul {
     list-style-type: none;
     background-color: gray;
+    margin-bottom: 30px;
 }
 
 menu li {
@@ -36,4 +37,8 @@ article {
     display: block;
     width: 600px;
     margin: auto;
+}
+
+article > p {
+    padding: 10px;
 }
