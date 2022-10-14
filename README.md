@@ -31,10 +31,15 @@ CAPÍTULO 21 - APRENDENDO A USAR TABELAS <br>
 
 <a href="http://andrebuitoni.github.io/html-css/ex023/tabela001.html" target="_blank">Acesse aqui a página sobre TABELAS em HTML e CSS</a> <br>
 
-----------------------------------
+-------- MÓDULO 4 - CAPÍTULOS 22 A 26 -----------
 
 CAPÍTULO 22 - Aprendendo a Usar IFRAMES <br>
 <a href="http://andrebuitoni.github.io/html-css/ex024/iframe001.html" target="_blank"> Acesse aqui a página sobre IFRAMES em HTML e CSS</a> <br>
+
+----------------------------------
+
+CAPÍTULO 23 - Projeto Mídias Sociais <br>
+<a href="http://andrebuitoni.github.io/projeto-social/index.html" target="_blank"> Acesse aqui a página do PROJETO-MÍDIAS-SOCIAIS</a> <br>
 
 ----------------------------------
 
@@ -45,3 +50,8 @@ CAPÍTULO 24 - Aprendendo a Usar Formulários <br>
 
 CAPÍTULO 25 - Aprendendo a Usar MEDIA QUERIES <br>
 <a href="http://andrebuitoni.github.io/html-css/ex026/mq002/index.html" target="_blank"> Acesse aqui a página sobre MEDIA QUERIES em HTML e CSS</a> <br>
+
+----------------------------------
+
+CAPÍTULO 26 - Projeto Tela de Login <br>
+<a href="http://andrebuitoni.github.io/projeto-login/index.html" target="_blank"> Acesse aqui a página do PROJETO-TELA-DE-LOGIN</a> <br>
