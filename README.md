@@ -34,7 +34,9 @@ CAPÍTULO 21 - APRENDENDO A USAR TABELAS <br>
 -------- MÓDULO 4 - CAPÍTULOS 22 A 26 -----------
 
 CAPÍTULO 22 - Aprendendo a Usar IFRAMES <br>
-<a href="http://andrebuitoni.github.io/html-css/ex024/iframe001.html" target="_blank"> Acesse aqui a página sobre IFRAMES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex024/iframe001.html" target="_blank"> Acesse aqui a página 1 sobre IFRAMES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex024/iframe002.html" target="_blank"> Acesse aqui a página 2 sobre IFRAMES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex024/iframe003.html" target="_blank"> Acesse aqui a página 3 sobre IFRAMES em HTML e CSS</a> <br>
 
 ----------------------------------
 
