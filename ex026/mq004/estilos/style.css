@@ -20,6 +20,13 @@ body {
     background-position: center center;
 }
 
+body p {
+    font-size: small;
+    color: rgb(0, 15, 29);
+    padding: 10px;
+    text-align: center;
+}
+
 main {
     background-color: rgba(255, 255, 255, 0.808);
     width: 90%;
