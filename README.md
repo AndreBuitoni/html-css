@@ -44,12 +44,16 @@ CAPÍTULO 23 - Projeto Mídias Sociais <br>
 ----------------------------------
 
 CAPÍTULO 24 - Aprendendo a Usar Formulários <br>
-<a href="http://andrebuitoni.github.io/html-css/ex025/form001.html" target="_blank"> Acesse aqui a página sobre FORMULÁRIOS em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex025/form001.html" target="_blank"> Acesse aqui as páginas sobre FORMULÁRIOS em HTML e CSS</a> <br>
 
 ----------------------------------
 
 CAPÍTULO 25 - Aprendendo a Usar MEDIA QUERIES <br>
-<a href="http://andrebuitoni.github.io/html-css/ex026/mq002/index.html" target="_blank"> Acesse aqui a página sobre MEDIA QUERIES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/mq001/index.html" target="_blank"> MQ 1 - Acesse aqui a página 1 sobre MEDIA QUERIES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/mq002/index.html" target="_blank"> MQ 2 - Acesse aqui a página 2 sobre MEDIA QUERIES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/mq003/index.html" target="_blank"> MQ 3 - Acesse aqui a página 3 sobre MEDIA QUERIES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/mq004/index.html" target="_blank"> MQ 4 - Acesse aqui a página 4 sobre MEDIA QUERIES em HTML e CSS</a> <br>
+<a href="http://andrebuitoni.github.io/html-css/ex026/mq005/mq005.html" target="_blank"> MQ 5 - Acesse aqui a página 5 sobre MEDIA QUERIES em HTML e CSS</a> <br>
 
 ----------------------------------
 
